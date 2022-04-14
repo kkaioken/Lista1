@@ -1,9 +1,16 @@
 public class Atividade7 {
     public static void main(String[] args) {
-        double i = 10.0;
+        int i = 10;
+        int x = 15;
+        
+        System.out.println("O valor de i é: " + i);
+        System.out.println("O valor de x é: " + x);
 
-        String k = Double.toString(i);
-
-        System.out.println(k);
+        int y = i;
+        i = x;
+        x = y;
+        System.out.println("O valor trocado de i é: " + i);
+        System.out.println("O valor trocado de x é: " + x);
+    
     }
 }
